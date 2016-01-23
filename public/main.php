@@ -288,7 +288,7 @@ case "insert_domain" :
     {
         $entry["objectclass"][0]	= "top";
         $entry["objectclass"][1]	= "VirtualDomain";
-        $entry["objectclass"][2]	= "inetLocalMailRecipient";
+        //$entry["objectclass"][2]	= "inetLocalMailRecipient";
 
         $entry["vd"]				= $domain_new;
         $entry["lastChange"]		= time();
